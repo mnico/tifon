@@ -1,0 +1,16 @@
+<?php
+
+
+/**
+ * Implements hook_menu().
+ */
+function tifon_menu() {
+  $items['tifon-page'] = array(
+    'title' => 'TiFON',
+    'page callback' => 'tifon_page_callback',
+    'access arguments' => array('access content'),
+    'file' => 'tifon.pages.inc',
+  );
+  
+  return $items;
+}
