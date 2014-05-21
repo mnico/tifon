@@ -1,0 +1,4 @@
+name = TIFON
+description = Modulo Base
+core = 7.x
+package = TIFON
